@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:padding="20sp"
+    android:background="@drawable/gradient_background">
+
+    <EditText
+        android:id="@+id/etUsernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/username"
+        android:textColorHint="#CCCCCC"
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:id="@+id/etPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        app:layout_constraintTop_toBottomOf="@+id/etUsernameLogin"
+        android:textColorHint="#CCCCCC"
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:id="@+id/etConfirmPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/repeat_password"
+        app:layout_constraintTop_toBottomOf="@+id/etUsernameLogin"
+        android:textColorHint="#CCCCCC"
+        android:textColor="@color/colorText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordLogin">
+
+        <Button
+            android:id="@+id/btnViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/already_have_account"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/btnActionRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/register"
+            android:background="@color/colorDone"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/colorText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/task_title"
+                android:layout_width="322dp"
+                android:layout_height="39dp"
+                android:maxLines="2"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:paddingStart="0sp"
+                android:paddingEnd="90sp">
+
+                <ImageView
+                    android:id="@+id/ivTaskReward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGold"
+                    android:paddingHorizontal="5sp"
+                    android:paddingVertical="5sp"
+                    app:srcCompat="@drawable/ic_coins"
+                    android:contentDescription="@string/reward" />
+
+                <TextView
+                    android:id="@+id/tvTaskReward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGold"
+                    android:paddingHorizontal="5sp"
+                    android:paddingVertical="5sp"
+                    android:text=""
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/task_done"
+            android:onClick="taskDone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorDone"
+            android:text="@string/done"
+            android:textColor="@color/colorText" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

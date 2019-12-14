@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fun Task</string>
+    <string name="taskTitle">Task Name</string>
+    <string name="taskReward">Task Reward</string>
+    <string name="add_task_dialog_title">Add Task</string>
+    <string name="add_reward_dialog_title">Add Reward</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="reward">reward</string>
+    <string name="use">Use</string>
+    <string name="delete">delete</string>
+    <string name="done">Done</string>
+    <string name="completed_task">Completed Task</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="use_reward">Use Reward</string>
+    <string name="logo">logo</string>
+    <string name="fun_task">FUN TASK</string>
+    <string name="your_completed_tasks">Your Completed Tasks</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="login">Login</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="register">Register</string>
+</resources>

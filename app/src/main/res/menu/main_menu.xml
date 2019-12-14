@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:enabled="false">
+        <item
+            android:id="@+id/view_coins"
+            android:checkable="false"
+            android:icon="@drawable/ic_coins"
+            android:title="0"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/coins_value"
+            android:checkable="false"
+            android:title="0"
+            app:showAsAction="always" />
+    </group>
+    <item
+        android:id="@+id/action_add_task"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Task"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_add_reward"
+        android:icon="@drawable/ic_trophy"
+        android:title="Add Reward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_view_completed_task"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/completed_task" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/logout" />
+</menu>
