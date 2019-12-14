@@ -14,4 +14,4 @@ Clone this repository and install dependencies.
 
 ## Project maintainers
 
-This project is maintained by Eureka Labdwara and friends. Use of this project under the [MIT License](LICENSE.md).
+This project is maintained by Eureka Labdawara and friends. Use of this project under the [MIT License](LICENSE.md).
