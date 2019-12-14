@@ -8,6 +8,9 @@
 - User could spend point on reward.
 - User could see list of completed task and delete it.
 
+## App Minimum Requirement
+Minimum SDK of 24
+
 ## Getting started
 
 Clone this repository and install dependencies.
